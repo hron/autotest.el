@@ -81,7 +81,7 @@
            ("^.* at \\([^:]*\\):\\([0-9]+\\)$" 1 2)
            ))
     (ansi-color-for-comint-mode-on)
-    (compilation-shell-minor-mode)
+    (compilation-shell-minor-mode 1)
     (comint-send-string buffer (concat autotest-command "\n"))))
 
 (defun autotest-switch ()
