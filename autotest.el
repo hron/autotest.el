@@ -70,7 +70,7 @@
 	   ))
     (set (make-local-variable 'comint-buffer-maximum-size) 5000)
     (set (make-local-variable 'comint-scroll-show-maximum-output) t)
-    (set (make-local-variable 'comint-scroll-to-bottom-on-output) t)
+    (set (make-local-variable 'comint-scroll-to-bottom-on-output) others)
 
     (set (make-local-variable 'compilation-error-regexp-alist)
          '(
